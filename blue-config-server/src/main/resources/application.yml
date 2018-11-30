@@ -1,0 +1,21 @@
+server:
+  port: 8899
+spring:
+  application:
+    name: eureka-config-server
+  profiles:
+    active: subversion
+  cloud:
+    config:
+      server:
+        svn:
+          uri: https://localhost/svn/test-project
+          username: admin
+          password: 123456
+        default-label: eureka
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

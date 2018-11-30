@@ -1,0 +1,20 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: blue-config-client
+  cloud:
+    config:
+      discovery: 
+        enabled: true
+        service-id: blue-config-server
+      profile: dev
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  security:
+    enabled: false

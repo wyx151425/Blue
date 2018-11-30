@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/blue.iml" filepath="$PROJECT_DIR$/blue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blue-bus/blue-bus.iml" filepath="$PROJECT_DIR$/blue-bus/blue-bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blue-config/blue-config.iml" filepath="$PROJECT_DIR$/blue-config/blue-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blue-config-client/blue-config-client.iml" filepath="$PROJECT_DIR$/blue-config-client/blue-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blue-config-server/blue-config-server.iml" filepath="$PROJECT_DIR$/blue-config-server/blue-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blue-server/blue-server.iml" filepath="$PROJECT_DIR$/blue-server/blue-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blue-zuul/blue-zuul.iml" filepath="$PROJECT_DIR$/blue-zuul/blue-zuul.iml" />
+    </modules>
+  </component>
+</project>

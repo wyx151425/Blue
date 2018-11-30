@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="blue-bus" />
+        <module name="blue-config-client" />
+        <module name="blue-config-server" />
+        <module name="blue-server" />
+        <module name="blue-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blue-bus" target="1.5" />
+      <module name="blue-config-client" target="1.5" />
+      <module name="blue-config-server" target="1.5" />
+      <module name="blue-server" target="1.5" />
+      <module name="blue-zuul" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
