@@ -2,17 +2,17 @@ server:
   port: 8899
 spring:
   application:
-    name: eureka-config-server
+    name: blue-config-server
   profiles:
-    active: subversion
+    active: git
   cloud:
     config:
       server:
-        svn:
-          uri: https://localhost/svn/test-project
-          username: admin
-          password: 123456
-        default-label: eureka
+        git:
+          uri: https://github.com/wyx151425/blue-config.git
+          search-paths: blue
+          username: wyx151425
+          password: Wyx18151425
 eureka:
   instance:
     hostname: localhost
